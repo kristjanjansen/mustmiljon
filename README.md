@@ -17,6 +17,6 @@ volo add
 ### TODO
 
 * Number/currency formatting http://numeraljs.com
-* Zooming D3 http://bl.ocks.org/4063582 or stepping
+* Zooming using D3 http://bl.ocks.org/4063582 or stepping using http://misoproject.com/storyboard/
 * Different data types
 
