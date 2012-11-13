@@ -4,7 +4,16 @@ body {
   font-size: 85%;
 }
 #footer {
-  opacity: 0.25;
+  margin-top: 10px;
+  opacity: 0.5;
+  float: left;
+  width: 100%;
+}
+.links {
+  float: left;
+}
+.legend {
+  float: right;
 }
 #treemap {
 	float: left;

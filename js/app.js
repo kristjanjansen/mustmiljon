@@ -16,7 +16,21 @@ ds.fetch({
       rows.push(row);      
     });
 
-    $('#treemap').treemap(rows);
+      	$('#treemap').treemap(rows, {
+  			nodeClass: function(node, box){
+              	if(node.value <= 50){
+              		return 'minor';
+              	}
+              	return 'major';
+          	},
+          	mouseenter: function (node, box) {
+          		$('.legend').html(node.label);
+          	},
+          	mouseleave: function (node, box) {
+          		$('.legend').html('');
+          	}
+  		});
+
     
   }
 })
