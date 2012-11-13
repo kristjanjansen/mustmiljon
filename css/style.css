@@ -1,0 +1,26 @@
+body {
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 85%;
+}
+#footer {
+  opacity: 0.75;
+}
+#treemap {
+	float: left;
+	width: 100%;
+	height: 500px;
+	font-family: sans-serif;
+}
+.treemap-node {
+	background-color: #dee;
+	color: white;
+	border-radius: 3px;
+}
+.treemap-label {
+  text-align: left !important;
+  margin: 10px auto auto 10px !important;
+	font-size: 1em !important;
+	color: #000;
+	opacity: 0.5;
+}
