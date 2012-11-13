@@ -1,10 +1,10 @@
 body {
-  margin: 20px;
+  margin: 10px;
   font-family: sans-serif;
   font-size: 85%;
 }
 #footer {
-  opacity: 0.75;
+  opacity: 0.25;
 }
 #treemap {
 	float: left;
