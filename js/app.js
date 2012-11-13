@@ -16,20 +16,14 @@ ds.fetch({
       rows.push(row);      
     });
 
-      	$('#treemap').treemap(rows, {
-  			nodeClass: function(node, box){
-              	if(node.value <= 50){
-              		return 'minor';
-              	}
-              	return 'major';
-          	},
-          	mouseenter: function (node, box) {
-          		$('.legend').html(node.label);
-          	},
-          	mouseleave: function (node, box) {
-          		$('.legend').html('');
-          	}
-  		});
+    $('#treemap').treemap(rows, {
+      mouseenter: function (node, box) {
+        $('.legend').html('<span class="label">' + node.label + '</span> <span class="value">' + Math.round(node.value / 1000000) + '</span> miljonit €');
+      },
+      mmouseleave: function (node, box) {
+        $('.legend').html('');
+      }
+    });
 
     
   }
