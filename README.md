@@ -1,6 +1,6 @@
 # About
 
-Mustmiljon is a simple browser based tool what fetches the data from public Google spreadsheet visualizes it as a (treemap)[http://en.wikipedia.org/wiki/Treemapping].
+Mustmiljon is a simple browser based tool what fetches the data from public Google spreadsheet visualizes it as a [treemap](http://en.wikipedia.org/wiki/Treemapping).
 
 # Installation
 
